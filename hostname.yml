@@ -1,0 +1,7 @@
+---
+- name: Echo Hostname
+  hosts: ptero-node
+  tasks:
+    - name: Echo Hostname
+      command: hostname
+      
