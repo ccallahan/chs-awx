@@ -1,6 +1,6 @@
 ---
 - name: Echo Hostname
-  hosts: ptero-node
+  hosts: debian10
   tasks:
     - name: Echo Hostname
       command: hostname
