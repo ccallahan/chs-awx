@@ -1,6 +1,6 @@
 ---
 - name: Echo Hostname
-  hosts: debian10
+  hosts: au
   tasks:
     - name: Echo Hostname
       command: hostname
